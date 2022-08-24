@@ -1,0 +1,87 @@
+:root {
+  --greenglow: #0E9200;
+  --chocolate: #342024;
+  --wine: #0D0E0D;
+  --ltplum: #a462a6;
+  --mlkchoco: #5E2F2C;
+  --palechoco: #AA6B67;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: var(--chocolate);
+  width: 990px;
+}
+
+.overallmain {
+ display: flex;
+}
+
+.logo {
+  width: 310px;
+  padding: 20px;  
+}
+
+.top {
+  flex-direction: column;
+}
+
+.navtext {
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: var(--greenglow);
+  font-size: 32px;
+  border-style: solid;
+  border-color: var(--wine);
+  border-radius: 20px;
+  border-width: 2px;
+  margin: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 620px;
+}
+
+.blogmain {
+  border-style: solid;
+  border-color: var(--wine);
+  border-radius: 20px;
+  border-width: 2px;
+  margin: 20px;
+  padding: 20px;
+  width: 620px;
+}
+
+.ind_post_shell {
+  background-color: var(--mlkchoco);
+  }
+
+.postbodyshell {
+  background-color: var(--palechoco);
+  font-size: 20px; 
+  line-height: 1.5;
+  padding:14px;
+  margin-bottom:20px;
+}
+
+.postbodywords {
+  margin-top: 14px;
+  padding: 14px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: var(--wine);
+
+}
+
+.postheader {
+  padding: 14px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: var(--wine);
+  font-size: 22px;
+}
